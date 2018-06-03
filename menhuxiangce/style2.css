@@ -1,0 +1,159 @@
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:100%; 
+	color:#808080;
+	min-width:960px;
+	background:#0d0d0d;
+	
+}
+
+.tou{width: 998px;
+    border: 1px solid #e4e4e4;
+    margin: 12px auto 0px;
+	
+    }
+.shang{
+	display: block;
+	height: 150px
+}
+h1{
+	float: left;
+	position:relative;
+	padding: 44px 0 0 25px;
+}
+h1 a{
+	display:block;
+	width: 300px;
+	height:38px;
+	text-indent:-9999em;
+	background:url(images/logo.png) 0 0 no-repeat;
+	
+}
+
+.hang{
+	float: right;
+	list-style: none;
+	margin: 80px 20px 0px 0px;
+	
+}
+	.hang li{
+		float: left;
+		margin: 5px;
+		cursor: pointer;
+
+	}
+		.hang>li>a:hover{
+			background-position:left top; 
+			background-color:#e82d02;
+			color:#fff;
+		}
+
+.daohang{
+	display: block;
+	overflow:hidden;
+	width: 100%;
+	margin-left: 12px;
+	
+	
+}
+	.daohang li {
+		margin-left: 2px;
+		display: block;
+		float: left;
+		position:relative;		
+		
+	
+			
+	}
+	
+.daohang li a {
+		display:block;
+		height:55px; 
+		font-size:16px; 
+		line-height:51px; 
+		padding:0px 34px 0 33px; 
+		color:#0d0d0d; 
+		cursor: pointer;
+		background:url(images/menu-a.png) left bottom repeat-x #fff;
+}
+
+
+.daohang li a:hover{
+	background-position:left top; 
+			background-color:#e82d02;
+			color:#fff;
+}
+.dao-ui li.ruan > a{
+	border-radius: 12px 0 0 12px;
+
+}
+.dao-ui li.rouyuan a{
+	border-radius: 0 12px  12px 0;
+}
+
+.zhong{ height:100% overflow:hidden;
+	width:998px;
+    border: 1px solid #e4e4e4;
+    margin: 12px auto 0px;}
+.pcimg-t{
+	width:800px;
+	padding: 20px 50px 10px 10px;
+}
+.pcimg-b{
+	width:800px;
+	
+	padding: 20px 50px 10px 50px;
+}
+.phon-gd{
+	width:523px;
+	height:337px;
+	padding:22px 0px 0px 107px;
+	background:url(images/slider-bg.png) 0 0 no-repeat;
+	overflow:hidden;
+	position:relative;
+	z-index:1;
+	float:left;
+	margin:0 40px 0 2px;
+}
+
+
+.zhong-rige{
+	width: 288px;
+	height: 303px;
+	float: right;
+}
+
+.title-1 {
+	display: block;
+	font-size: 53px;
+	line-height: 1.2em;
+	color: #ec4003;
+	text-transform: uppercase;
+	margin-bottom: -10px;	
+}
+.title-2 {
+	display: block;
+	font-size: 30px;
+	color:#e7e7e7;
+	margin-bottom: 17px;
+	letter-spacing: -1px;
+}
+
+.aligncenter{
+	text-align:center;
+}
+
+.button{
+	display: inline-block;
+	padding: 15px 36px 8px 36px;
+	background:url(images/menu-a.png) left bottom repeat-x #fff;
+	border-radius:12px; 
+	line-height: 2em;
+	font-size: 16px;
+	color:#0d0d0d;
+}
+
+
+.button:hover {color:#fff; background:#ee4704;
+}
